@@ -16,7 +16,7 @@ int main(void)
 			{
 				if (c > b && b > a)
 				{
-					if (!(x == '0' && b == '1' && c == '2'))
+					if (!(a == '0' && b == '1' && c == '2'))
 					{
 						putchar(',');
 						putchar(' ');

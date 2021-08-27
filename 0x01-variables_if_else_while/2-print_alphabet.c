@@ -8,7 +8,9 @@ int main(void)
 {
 	char lcase = 'a';
 	for (lcase= 'a'; lcase <='z'; lcase++)
+	{
 		putchar(lcase);
-		putchar("\n");
+		putchar('\n');
+	}
 	return (0);
 }

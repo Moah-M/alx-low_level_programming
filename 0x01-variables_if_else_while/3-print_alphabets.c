@@ -8,6 +8,7 @@ int main(void)
 {
 	char lcase = 'a';
 	char ucase = 'A';
+
 	for (lcase = 'a'; lcase <= 'z'; lcase++)
 	{
 		putchar(lcase);
@@ -19,3 +20,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+

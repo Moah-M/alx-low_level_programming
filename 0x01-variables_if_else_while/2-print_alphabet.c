@@ -7,7 +7,7 @@
 int main(void)
 {
 	char lcase = 'a';
-	for (lcase= 'a'; lcase <=z; lcase++)
+	for (lcase= 'a'; lcase <='z'; lcase++)
 	{
 		putchar(lcase);
 		putchar("\n");

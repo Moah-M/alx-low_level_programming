@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int n = rand(2);
+	int n = rand();
 	if (n > 0)
 	{
 		printf("%d is positive", n);

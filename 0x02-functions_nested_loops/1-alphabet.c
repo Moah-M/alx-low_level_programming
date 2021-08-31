@@ -3,7 +3,7 @@
  * print_alphabet - function
  * Return: done
  */
-voidi print_alphabet(void)
+void print_alphabet(void)
 {
 	char low = 'a';
 

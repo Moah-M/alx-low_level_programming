@@ -4,7 +4,7 @@
  * @x: number
  * Return: 0
  */
-int print(int x)
+int print_sign(int x)
 {
 	if (x > 0)
 	{

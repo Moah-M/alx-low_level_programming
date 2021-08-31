@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - function
+ * print_alphabet - function
  * Return: done
  */
-void print_alphabet(void)
+voidi print_alphabet(void)
 {
 	char low = 'a';
 

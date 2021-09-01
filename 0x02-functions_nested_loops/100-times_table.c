@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_times_table - print function
- * @x: var 1
+ * @n: var 1
  * Return: val 0
  */
 void print_times_table(int n)

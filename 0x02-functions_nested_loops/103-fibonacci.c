@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - function
  * Return: val 0
  */
@@ -18,7 +18,7 @@ int main(void)
 		b = c;
 		if (c > 4000000)
 			break;
-		if((c % 2) == 0)
+		if ((c % 2) == 0)
 			d += c;
 	}
 	printf("%ld\n", d);

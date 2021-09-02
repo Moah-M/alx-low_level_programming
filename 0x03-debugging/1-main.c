@@ -8,9 +8,9 @@ int  main(void)
 {
 	int i;
 
-	printf("Ininite loop incoming :(\n)");
+	printf("Ininite loop incoming :(\n");
 
-	i=0;
+	i = 0;
 
 	while (i < 10)
 	{

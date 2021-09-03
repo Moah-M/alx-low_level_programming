@@ -3,7 +3,7 @@
 /**
  * mul - func
  * @a: val 1
- * @b: val 
+ * @b: val
  * Return: val
  */
 int mul(int a, int b)

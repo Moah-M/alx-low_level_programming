@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include "holberton.h"
 
 /**
  * print_remaining_days - func

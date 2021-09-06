@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * void _puts -main function
+ * _puts - main function
+ * @s: var
  *
  */
 void _puts(char *str)
 {
-	printf("%s\n",str);
+	printf("%s\n", str);
 }

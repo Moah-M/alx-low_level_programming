@@ -3,6 +3,7 @@
 /**
  * _puts - main function
  * @s: var
+ * @str: another var
  *
  */
 void _puts(char *str)

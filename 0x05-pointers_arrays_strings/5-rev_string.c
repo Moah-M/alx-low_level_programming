@@ -1,18 +1,15 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
- * print_rev - funct
+ * rev_string - funct
  *@r: var
  */
 void rev_string(char *s)
 {
-	int l = 0;
+	char ss[100];
+	ss = strrev(s);
+	printf("%s\n", ss);
 
-	while (*s++ != '\0')
-		l++;
-	s -= l + 1;
-	while (l--)
-		_putchar(s[l]);
-	_putchar('\n');
 }

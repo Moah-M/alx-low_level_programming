@@ -9,5 +9,5 @@ void puts2(char *str)
 			_putchar(*str);
 		even = !even;
 	}
-	_putcahr('\n');
+	_putchar('\n');
 }

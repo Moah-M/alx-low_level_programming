@@ -3,6 +3,7 @@
 void puts2(char *str)
 {
 	char even = 1;
+
 	for ( ; *str != '\0'; str++)
 	{
 		if (even)

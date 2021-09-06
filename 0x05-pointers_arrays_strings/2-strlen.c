@@ -4,15 +4,13 @@
 /**
  * _strlen - main function
  * @s: var 1
- * @x: var 2
+ * @y: var 2
  * Return: 0
  */
 int _strlen(char *s)
 {
-	int x;
-
-	for (x = 0; x != '\0'; x++)
-	{
-		return (x);
-	}
+	int  = 0;
+	while (*s++ != '\0')
+		i++;
+	return (y);
 }

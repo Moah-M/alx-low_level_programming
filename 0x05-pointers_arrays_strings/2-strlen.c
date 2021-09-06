@@ -10,10 +10,8 @@
 int main(void){
 int _strlen(char *s)
 {
-	int x;
-	x = strlen(s);
-	printf("%d", x);
-	return (0);
-}
-return (0);
+	int x = 0;
+	while (*s++ != '\0')
+		x++;
+	return (x);
 }

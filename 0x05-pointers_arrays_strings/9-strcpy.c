@@ -4,6 +4,7 @@
  * *_strcpy - func
  * @dest: first
  * @src: second
+ * Return: 0
  */
 
 char *_strcpy(char *dest, char *src)

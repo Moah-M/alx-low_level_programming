@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ^_strcpy - func
+ * *_strcpy - func
  * @dest: first
  * @src: second
  */
@@ -9,7 +9,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	
+
 	i = 0;
 
 	while (i >= 0)

@@ -4,7 +4,8 @@
  * _atoi - func
  * @s: var 1
  * Return: 0
- * */
+ * 
+ */
 int _atoi(char *s)
 {
 	int sign = 1;

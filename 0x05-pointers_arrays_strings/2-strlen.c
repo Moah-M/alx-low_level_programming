@@ -4,9 +4,10 @@
 /**
  * _strlen - main function
  * @s: var 1
+ * @x: var 2
  * Return: 0
  */
 int _strlen(char *s)
 {
-	strlen(*s);
+	int x=strlen(s);
 }

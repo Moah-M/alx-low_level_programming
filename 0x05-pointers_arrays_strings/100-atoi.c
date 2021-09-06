@@ -3,14 +3,13 @@
 /**
  * _atoi - func
  * @s: var 1
- * Return: 0
- * 
+ * Return: 0 
  */
 int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int num = 0;
-	
+
 	do {
 		if (*s == '-')
 		sign *= -1;

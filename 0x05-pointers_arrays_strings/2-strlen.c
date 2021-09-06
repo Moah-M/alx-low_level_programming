@@ -7,7 +7,6 @@
  * @x: var 2
  * Return: 0
  */
-int main(void){
 int _strlen(char *s)
 {
 	int x = 0;

@@ -7,8 +7,13 @@
  * @x: var 2
  * Return: 0
  */
+int main(void){
 int _strlen(char *s)
 {
-	strlen(s);
+	int x;
+	x = strlen(s);
+	printf("%d", x);
 	return (0);
+}
+return (0);
 }

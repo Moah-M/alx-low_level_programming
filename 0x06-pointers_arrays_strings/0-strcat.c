@@ -3,6 +3,8 @@
 
 /**
  * *_strcat - function
+ * @dest: var 1
+ * @src: done
  * Return: value
  */
 

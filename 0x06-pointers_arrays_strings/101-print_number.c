@@ -27,7 +27,7 @@ void print_number(int n)
 		c *= 10;
 	}
 
-	for (; c >= 1; c / 10)
+	for (; c >= 1; c /= 10)
 	{
 		_putchar(((m / c) % 10) + 48);
 	}

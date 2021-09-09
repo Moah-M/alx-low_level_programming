@@ -4,11 +4,13 @@
  * @dest: var 1
  * @src: var 2
  * @n: num 1
+ * Return: 0
  */
+
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i=0, op = 0;
+	int i = 0, op = 0;
 
 	while (op == 0)
 	{

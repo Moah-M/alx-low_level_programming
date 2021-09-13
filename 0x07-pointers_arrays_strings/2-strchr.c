@@ -6,13 +6,14 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i = 0;
-	char d;
+	long unsigned int i = 0;
+	char *d;
 
-	while (i < sizeof(s))
+	while (i < 100)
 	{
 		if (s[i] == c)
 		{
+			d = (s + i);
 			break;
 		}
 		else
@@ -20,7 +21,7 @@ char *_strchr(char *s, char c)
 			i++;
 		}
 	}
-	return (s);
+	return (d);
 }
 
 	

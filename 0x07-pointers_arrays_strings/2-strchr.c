@@ -2,11 +2,13 @@
 
 /**
  * _strchr - main func
+ * @s: sd
+ * @c: first c
  * Return: 0
  */
 char *_strchr(char *s, char c)
 {
-	long unsigned int i = 0;
+	int i = 0;
 	char *d;
 
 	while (i < 100)
@@ -23,6 +25,3 @@ char *_strchr(char *s, char c)
 	}
 	return (d);
 }
-
-	
-	

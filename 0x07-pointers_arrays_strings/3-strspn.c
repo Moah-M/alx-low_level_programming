@@ -2,6 +2,10 @@
 
 /**
  * _strspn - main
+ * @s: var 1
+ * @accept: var 2
+ * @i: var 3
+ * @j: 4
  */
 unsigned int _strspn(char *s, char *accept)
 {

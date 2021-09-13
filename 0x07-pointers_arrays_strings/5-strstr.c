@@ -10,11 +10,11 @@ char *_strstr(char *haystack, char *needle)
 
 	while (i < 100)
 	{
-		if (haystack[i] = needle)
+		if ((haystack + i) == needle)
 		{
-			return (*(haystack + i));
+			return (haystack + i);
 		}
 		i++;
 	}
-	return (*(haystack + i));
+	return (haystack + i);
 }

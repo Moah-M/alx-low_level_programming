@@ -2,6 +2,8 @@
 
 /**
  * _strstr - main
+ * @haystack: var1
+ * @needle: dasd
  * Return: 0
  */
 char *_strstr(char *haystack, char *needle)

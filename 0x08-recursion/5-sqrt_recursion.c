@@ -1,13 +1,15 @@
 #include "main.h"
-/** prov - main
+/**
+ * prov - main
  * @x: var 1
  * @y: var 2
+ * Return: 0
  */
 int prov(int x, int y)
 {
 	if (y % (x / y) == 0)
 	{
-		if(y * (x / y) == x)
+		if (y * (x / y) == x)
 			return (y);
 		else
 			return (-1);
@@ -28,5 +30,5 @@ int _sqrt_recursion(int n)
 		return (0);
 	if (n == 1)
 		return (1);
-	return (prov(n,2));
+	return (prov(n, 2));
 }

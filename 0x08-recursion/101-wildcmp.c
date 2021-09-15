@@ -13,7 +13,7 @@ int wildcmp(char *x, char *y)
 	if (*x == '\0' && *y == '\0')
 		return (1);
 	if (*x == *y)
-		return (wildcmp(x + 1, y + 2));
+		return (wildcmp(x + 1, y + 1));
 	if (*y == '*')
 		return (wildcmp(x, y + 1) || wildcmp(x + 1, y));
 	return (0);

@@ -7,7 +7,7 @@ int prov(int x, int y)
 {
 	if (y % (x / y) == 0)
 	{
-		if(y * (x / y) == n)
+		if(y * (x / y) == c)
 			return (y);
 		else
 			return (-1);

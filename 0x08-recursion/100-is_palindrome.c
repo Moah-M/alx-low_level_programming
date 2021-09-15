@@ -25,7 +25,7 @@ int checker(char *s, int x, int y)
 	{
 		if (x == y || x == y + 1)
 			return (1);
-		return (0 + checker(s, x + 1, y + 1));
+		return (0 + checker(s, x + 1, y - 1));
 	}
 	return (0);
 }

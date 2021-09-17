@@ -10,16 +10,12 @@ int main (int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0; i < argc; i++)
+	if (argc == 3)
 	{
-		if (argc == 3)
-		{
-			return (atoi(argv[1]) * atoi(argv[2]));
-		}
-		else
-		{
-			printf("Error");
-		}
+		printf("%d\n", (atoi(argv[1]) * atoi(argv[2])));
 	}
-	return (atoi(argv[1]) * atoi(argv[2]));
+	else
+	{
+		printf("Error");
+	}
 }

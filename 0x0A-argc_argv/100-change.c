@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		else if (x >= 2)
 			x -= 2;
 		else if (x >= 1)
-			cents -= 1;
+			x -= 1;
 		y += 1;
 	}
 	printf("%d\n", y);

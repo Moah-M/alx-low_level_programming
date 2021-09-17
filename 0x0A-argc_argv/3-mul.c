@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - func
  * @argc: var 1
@@ -11,13 +12,13 @@ int main (int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		if (argc != 3)
+		if (argc == 3)
 		{
-			printf("Error")
+			return (atoi(argv[1]) * atoi(argv[2]));
 		}
 		else
 		{
-			return (atoi(argv[1]) * atoi(argv[2]));
+			printf("Error");
 		}
 	}
 	return (atoi(argv[1]) * atoi(argv[2]));

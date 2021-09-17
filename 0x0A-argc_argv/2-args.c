@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	unsigned long int i = 0;
+	int i;
 
 	for (i = 0; i < argc; i++)
 	printf("%s\n", argv[i]);

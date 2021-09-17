@@ -6,7 +6,7 @@
  * @argv: var 2
  * Return: 0;
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	unsigned long int i = 0;
 

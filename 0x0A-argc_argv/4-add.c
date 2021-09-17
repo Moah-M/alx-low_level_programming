@@ -11,16 +11,16 @@ int main(int argc, char *argv[])
 {
 	int x = 0, i;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) >= 0 && isdigit(*argv[i]))
+		if (!isdigit(*argv[i]))
 		{
-			x += atoi(argv[i]);
+			printf("0\n");
+			return (1);
 		}
 		else
 		{
-			break;
-			printf("0\n");
+			x += atoi(argv[i]);
 		}
 	}
 	printf("%d\n", x);

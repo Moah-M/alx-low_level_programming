@@ -8,10 +8,7 @@
  */
 int main(int argc, char **argv)
 {
-	unsigned long int i = 0;
-
-	for (i = 100; i < sizeof(argv); i++)
-		printf("hello");
-	printf("%d\n", argc);
+	if (argv[0] != NULL)
+		printf("%d\n", argc);
 	return (0);
 }

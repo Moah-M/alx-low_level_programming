@@ -8,7 +8,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char x[size];
+	char x[100];
 	unsigned int i;
 
 	c = 'H';

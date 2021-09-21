@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 		k++;
 	}
 
-	p = (char *)malloc(count * sizeof(char) + 1);
+	p = (char *)malloc(count * sizeof(char));
 	if (p == NULL)
 	{
 		printf("Error");

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * creatae_array - main
@@ -8,10 +9,10 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char x[100];
+	char *x;
 	unsigned int i;
 
-	c == 'H';
+	x = malloc(size * sizeof(char));
 
 	if (size == 0)
 	{
@@ -19,12 +20,8 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (i = 0; i < size; i++)
-		{
-			return (*(x + i) == c);
-		}
+		return (*(x + i) == c);
 	}
-	return (*(x + i) == c);
+	return (1);
 }
-
 

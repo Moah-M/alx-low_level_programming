@@ -11,7 +11,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *p;
 	int i, j, k;
-	int count1 = 0 count2 = 0;
+	int count1 = 0, count2 = 0;
 
 	j = 0;
 	while (s1[j] != '\0')
@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 		k++;
 	}
 	count1 = count1 + count2
-	p = (char *)malloc(10 * sizeof(char));
+	p = (char *)malloc(count1 * sizeof(char));
 	if (p == NULL)
 	{
 		printf("Error");
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	else
 	{
 		i = 0;
-		while (i <= count)
+		while (i <= count1)
 		{
 			p[i] = s1[i];
 			p[i] = p[i] + s2[i];

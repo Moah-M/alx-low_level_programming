@@ -27,6 +27,9 @@ char *_strdup(char *str)
 	else
 	{
 		i = 0;
+
+		if (str == NULL)
+			return (0);
 		while (i <= count)
 		{
 			p[i] = str[i];

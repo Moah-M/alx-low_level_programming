@@ -9,7 +9,7 @@ int count(char *s)
 {
 	int i, n = 0;
 
-	for(i = 0; s[i]; i++)
+	for (i = 0; s[i]; i++)
 	{
 		if (s[i] == ' ')
 		{
@@ -35,7 +35,7 @@ char **strtow(char *str)
 	if (str == NULL || *str == '\0')
 		return (NULL);
 	n = count(str);
-	if(n == 1)
+	if (n == 1)
 		return (NULL);
 	w = (char **)malloc(n * sizeof(char *));
 	if (w == NULL)

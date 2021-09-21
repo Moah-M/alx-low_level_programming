@@ -39,11 +39,7 @@ char *str_concat(char *s1, char *s2)
 			i++;
 		}
 		m = 0;
-		while (m <= count2)
-		{
-			p[i] = first + s2;
-			m++;
-		}
+		p = first + s2;
 	}
 	return (p);
 }

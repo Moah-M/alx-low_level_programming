@@ -11,7 +11,7 @@ char *create_array(unsigned int size, char c)
 	char x[100];
 	unsigned int i;
 
-	c = 'H';
+	c == 'H';
 
 	if (size == 0)
 	{

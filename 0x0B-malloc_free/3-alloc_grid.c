@@ -21,6 +21,6 @@ int **alloc_grid(int width, int height)
 			printf("%d", height);
 		}
 	}
-	return (0);
+	return (1);
 }
 

@@ -18,12 +18,14 @@ char *_strdup(char *str)
 	}
 	else
 	{
+		i = 0;
 		while (i >= 0)
 		{
 			p[i] = str[i];
 
 			if (str[i] =='\0')
 				break;
+			i++;
 		}		
 	}
 	return (p);

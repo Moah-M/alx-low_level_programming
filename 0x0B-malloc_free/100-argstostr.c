@@ -6,7 +6,7 @@
  * @av: var 2
  * Return: 0
  */
-char *argtostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int i, j, k = 0, n = 0;
 	char *s;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * creata_array - main
+ * create_array - main
  * @size: var 1;
  * @c: var 2;
  * Return: 0
@@ -11,7 +11,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *x;
 	unsigned int i;
-	
+
 	x = (char *)malloc(size * sizeof(char));
 	if (size == 0)
 	{

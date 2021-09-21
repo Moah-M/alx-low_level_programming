@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 	char *p;
-	int i;
+	unsigned int i;
 
 	p = (char *)malloc(10 * sizeof(char) + 3);
 	if (p == NULL)

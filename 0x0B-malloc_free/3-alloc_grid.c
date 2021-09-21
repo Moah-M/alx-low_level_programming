@@ -7,7 +7,7 @@
  * @height: var 2
  * Return 0;
  */
-int **alloc_grid(int width = 0, int height = 0)
+int **alloc_grid(int width, int height)
 {
 	int *p;
 	int i, j;
@@ -21,6 +21,6 @@ int **alloc_grid(int width = 0, int height = 0)
 			printf("%d", height);
 		}
 	}
-	return ();
+	return (0);
 }
 

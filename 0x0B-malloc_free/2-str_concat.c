@@ -41,8 +41,8 @@ char *str_concat(char *s1, char *s2)
 		m = 0;
 		while (m <= count2)
 		{
-			p[i] = s2[i];
-			m++
+			p[i] = s2[m];
+			m++;
 		}
 	}
 	return (p);

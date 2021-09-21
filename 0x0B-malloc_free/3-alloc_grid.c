@@ -10,7 +10,7 @@
 int **alloc_grid(int width, int height)
 {
 	int i, j;
-	int width = 0, height = 0;	
+	width = 0, height = 0;	
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d ", width);

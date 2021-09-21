@@ -11,21 +11,21 @@ char *str_concat(char *s1, char *s2)
 {
 	char *p;
 	int i, j, k;
-	int count = 0;
+	int count1 = 0 count2 = 0;
 
 	j = 0;
 	while (s1[j] != '\0')
 	{
-		count++;
+		count1++;
 		j++;
 	}
 	k = 0;
 	while (s2[k] != '\0')
 	{
-		count++;
+		count2++;
 		k++;
 	}
-
+	count1 = count1 + count2
 	p = (char *)malloc(10 * sizeof(char));
 	if (p == NULL)
 	{

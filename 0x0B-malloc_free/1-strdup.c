@@ -24,12 +24,12 @@ char *_strdup(char *str)
 	{
 		printf("Error");
 	}
+	else if (str == NULL)
+	{
+		printf("failed to allocate memory")
 	else
 	{
 		i = 0;
-
-		if (str == 0)
-			printf("Failed to allocate memory");
 		while (i <= count)
 		{
 			p[i] = str[i];

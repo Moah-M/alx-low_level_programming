@@ -9,6 +9,7 @@
 char *_strdup(char *str)
 {
 	char *p;
+	char *x;
 	int i, j;
 	int count = 0;
 
@@ -35,8 +36,9 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		printf("Failed to allocate memory\n");
-		return (1);
+		x = "Failed to allocate memory\n";
+		p = x;
+		return (p);
 	
 	return (p);
 }

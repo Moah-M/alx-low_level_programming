@@ -9,11 +9,15 @@
 char *_strdup(char *str)
 {
 	char *p;
-	int i;
+	int i, j;
 	int count = 0;
 
-	while(*str++ != '\0')
+	j = 0;
+	while(str[j] != '\0')
+	{
 		count++;
+		j++;
+	}
 
 	p = (char *)malloc(10 * sizeof(char) + 3);
 	if (p == NULL)

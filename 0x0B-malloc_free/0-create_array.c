@@ -20,8 +20,12 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		return (*(x + i) == c);
+		for (i = 0; i < x; i++)
+		{
+			x[i] = c;
+			return (x);
+		}
 	}
-	return (1);
+	return (x);
 }
 

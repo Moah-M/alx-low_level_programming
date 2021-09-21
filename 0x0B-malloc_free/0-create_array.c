@@ -12,7 +12,8 @@ char *create_array(unsigned int size, char c)
 	char *x;
 	unsigned int i;
 
-	if ((x = (char *)malloc(size * sizeof(char))) == NULL)
+	x = (char *)malloc(size * sizeof(char));
+	if (x == NULL)
 	{
 		printf("ERROR");
 	}

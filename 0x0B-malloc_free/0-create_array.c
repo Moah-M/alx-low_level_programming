@@ -11,21 +11,26 @@ char *create_array(unsigned int size, char c)
 {
 	char *x;
 	unsigned int i;
-
-	x = (char*)malloc(size * sizeof(char));
-	return (x);
-
-	if (size == 0)
-	{
-		return (NULL);
-	}
+	
+	if ((x = (char*)malloc(size * sizeof(char))) == NULL)
+		return (0);
 	else
 	{
-		for (i = 0; i < size; i++)
+		x = (char*)malloc(size * sizeof(char));
+		return (x);
+
+		if (size == 0)
 		{
-			x[i] = c;
+			return (NULL);
 		}
+		else
+		{
+			for (i = 0; i < size; i++)
+			{
+				x[i] = c;
+			}
+		}
+		return (x);
 	}
-	return (x);
 }
 

@@ -17,11 +17,11 @@ int **alloc_grid(int width, int height)
 		return (0);	
 
 	width = 0, height = 0;	
-	for (i = 0; i < p; i++)
+	for (i = 0; i < width + height; i++)
 	{
 		printf("%d ", width);
 
-		for (j = 0; j < p; j++)
+		for (j = 0; j < width + height; j++)
 		{
 			printf("%d ", height);
 		}

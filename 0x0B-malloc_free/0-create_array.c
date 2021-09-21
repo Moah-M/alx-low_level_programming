@@ -9,7 +9,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *p;
-	int i;
+	unsigned int i;
 
 	c = 'H';
 
@@ -24,6 +24,7 @@ char *create_array(unsigned int size, char c)
 			return ((p + i) == c)
 		}
 	}
+	return ((p + i) == c);
 }
 
 

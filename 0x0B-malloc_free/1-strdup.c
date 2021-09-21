@@ -22,9 +22,6 @@ char *_strdup(char *str)
 		while (i >= sizeof(str))
 		{
 			p[i] = str[i];
-
-			if (str[i] == '\0' || " " || NULL)
-				break;
 			i++;
 		}
 	}

@@ -39,7 +39,7 @@ char *_strdup(char *str)
 		x = "Failed to allocate memory\n";
 		p = x;
 		return (p);
-	
+	}
 	return (p);
 }
 

@@ -10,16 +10,22 @@
 int **alloc_grid(int width, int height)
 {
 	int i, j;
+	int *p;
+
+	p = (int *)malloc(width + height * sizeof(int));
+        if (p == NULL)
+		return (0);	
+
 	width = 0, height = 0;	
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < p; i++)
 	{
 		printf("%d ", width);
 
-		for (j = 0; j < 10; j++)
+		for (j = 0; j < p; j++)
 		{
-			printf("%d", height);
+			printf("%d ", height);
 		}
 	}
-	return (0);
+	return (p);
 }
 

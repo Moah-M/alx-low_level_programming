@@ -9,7 +9,6 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *p;
-	char *x;
 	int i, j, k;
 	int count = 0;
 

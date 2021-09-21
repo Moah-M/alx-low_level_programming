@@ -23,10 +23,10 @@ char *_strdup(char *str)
 		{
 			p[i] = str[i];
 
-			if (str[i] =='\0')
+			if (str[i] == '\0' || " ")
 				break;
 			i++;
-		}		
+		}
 	}
 	return (p);
 }

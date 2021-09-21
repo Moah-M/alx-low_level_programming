@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argotstr - main
+ * argstostr - main
  * @ac: var 1
  * @av: var 2
  * Return: 0

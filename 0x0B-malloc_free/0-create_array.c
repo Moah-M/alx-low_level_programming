@@ -8,7 +8,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *p;
+	char x[size];
 	unsigned int i;
 
 	c = 'H';
@@ -21,10 +21,10 @@ char *create_array(unsigned int size, char c)
 	{
 		for (i = 0; i < size; i++)
 		{
-			return ((p + i) == c)
+			return (x[i] == c);
 		}
 	}
-	return ((p + i) == c);
+	return ((x[i] == c);
 }
 
 

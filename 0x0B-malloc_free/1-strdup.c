@@ -28,7 +28,7 @@ char *_strdup(char *str)
 	{
 		i = 0;
 
-		if (str == NULL)
+		if (str == 0)
 			printf("Failed to allocate memory");
 		while (i <= count)
 		{

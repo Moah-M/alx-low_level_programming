@@ -18,7 +18,7 @@ int **alloc_grid(int width, int height)
 
 		for (j = 0; j < height; j++)
 		{
-			printf("%d\n", height);
+			printf("%d", height);
 		}
 	}
 	return (0);

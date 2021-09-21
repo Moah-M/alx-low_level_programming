@@ -10,6 +10,10 @@ char *_strdup(char *str)
 {
 	char *p;
 	unsigned int i;
+	int count = 0;
+
+	while(*str++ != '\0')
+		y++;
 
 	p = (char *)malloc(10 * sizeof(char) + 3);
 	if (p == NULL)
@@ -19,7 +23,7 @@ char *_strdup(char *str)
 	else
 	{
 		i = 0;
-		while (i <= sizeof(p))
+		while (i <= y)
 		{
 			p[i] = str[i];
 			i++;

@@ -19,7 +19,7 @@ char *_strdup(char *str)
 		j++;
 	}
 
-	p = (char *)malloc(100 * sizeof(char) + 3 - 90);
+	p = (char *)malloc(100 * sizeof(char) + 3);
 	if (p == NULL)
 	{
 		printf("Error");

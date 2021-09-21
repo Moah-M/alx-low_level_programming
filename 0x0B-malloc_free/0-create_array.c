@@ -21,10 +21,10 @@ char *create_array(unsigned int size, char c)
 	{
 		for (i = 0; i < size; i++)
 		{
-			return (x[i] == c);
+			return (*(x + i) == c);
 		}
 	}
-	return ((x[i] == c);
+	return (*(x + i) == c);
 }
 
 

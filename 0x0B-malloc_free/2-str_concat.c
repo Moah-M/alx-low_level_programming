@@ -4,7 +4,8 @@
 /**
  * str_concat - main
  * Return: 0
- * @str: var 1
+ * @s2: var 1
+ * @s1: var 2
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -25,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 		k++;
 	}
 
-	p = (char *)malloc(count * sizeof(char));
+	p = (char *)malloc(10 * sizeof(char));
 	if (p == NULL)
 	{
 		printf("Error");

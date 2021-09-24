@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * is_digit - main
- * @s - var 1
+ * @s: var 1
  * Return: (0)
  */
 int is_digit(char *s)
@@ -26,7 +26,7 @@ int is_digit(char *s)
 int _strlen(char *s)
 {
 	int i = 0;
-	
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 		if (a)
 			_putchar(res[i] + '0');
 	}
-	if(!a)
+	if (!a)
 		_putchar('0');
 	_putchar('\n');
 	free(res);

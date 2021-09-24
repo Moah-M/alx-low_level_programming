@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 	int var1, var2, var, i, carry, dig1, dig2, *res, a = 0;
 
 	s1 = argv[1], s2 = argv[2];
-	if (argc != 3 || !is_digit(s1) || !isdigit(s2))
+	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
 	var1 = _strlen(s1);
 	var2 = _strlen(s2);
@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
 		{
 			dig2 = s2[var2] - '0';
 			carry += res[var1 + var2 + 1] + (dig1 * dig2);
-			result[var1 + var2 + 1] = carry % 10;
+			res[var1 + var2 + 1] = carry % 10;
 			carry /= 10;
 		}
 		if (carry > 0)

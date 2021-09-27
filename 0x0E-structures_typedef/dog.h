@@ -2,6 +2,9 @@
 #define _DOG_H
 /**
  * struct dog - main struct
+ * @name: var1
+ * @age: var 2
+ * @owner: var 3
  */
 struct dog
 {

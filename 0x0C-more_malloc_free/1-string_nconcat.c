@@ -3,7 +3,7 @@
 
 /**
  * string_nconcat - main
- * @s1: var1 
+ * @s1: var1
  * @s2: var 2
  * @n: var 3
  * Return: 0

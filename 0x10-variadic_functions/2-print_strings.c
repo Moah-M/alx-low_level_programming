@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdarg.h>
+/**
+ * print_strings - main
+ * @separator: var 1
+ * @n: var 2
+ */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -10,10 +15,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(args,n);
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(args, char *);
-		if (str)
+		s = va_arg(args, char *);
+		if (s)
 		{
-			printf("%s", str);
+			printf("%s", s);
 		}
 		else
 			printf("(nil)");

@@ -4,14 +4,14 @@
 /**
  * print_char - main
  *
- * @arg: var 1
+ * @args: var 1
  *
  * Return: nothing
 */
 
-void print_char(va_list arg)
+void print_char(va_list args)
 {
-	char c = va_arg(arg, int);
+	char c = va_arg(args, int);
 
 	printf("%c", c);
 }
@@ -19,14 +19,14 @@ void print_char(va_list arg)
 /**
  * print_int - main
  *
- * @arg: var 1
+ * @args: var 1
  *
  * Return: nothing
 */
 
-void print_int(va_list arg)
+void print_int(va_list args)
 {
-	int n = va_arg(arg, int);
+	int n = va_arg(args, int);
 
 	printf("%d", n);
 }
@@ -34,14 +34,14 @@ void print_int(va_list arg)
 /**
  * print_float - main
  *
- * @arg: var 1
+ * @args: var 1
  *
  * Return: nothing
 */
 
-void print_float(va_list arg)
+void print_float(va_list args)
 {
-	float n = va_arg(arg, double);
+	float n = va_arg(args, double);
 
 	printf("%f", n);
 }
@@ -49,13 +49,13 @@ void print_float(va_list arg)
 /**
  * print_string -main
  *
- * @arg: var 1
+ * @args: var 1
  * Return: nothing
 */
 
-void print_string(va_list arg)
+void print_string(va_list args)
 {
-	char *str = va_arg(arg, char *);
+	char *str = va_arg(args, char *);
 
 	if (str == NULL)
 	{

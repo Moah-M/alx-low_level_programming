@@ -1,3 +1,10 @@
+#include "lists.h"
+/**
+ * add_node - main
+ * @head: var 1
+ * @str: var 2
+ * Return: 0
+ */
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *x;

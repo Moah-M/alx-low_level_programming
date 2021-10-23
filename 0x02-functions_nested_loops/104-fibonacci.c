@@ -7,7 +7,7 @@
 int main(void)
 {
 	long int i;
-	long int n = 88;
+	long int n = 89;
 	long int t1 = 1, t2 = 1;
 	long int nextTerm = t1 + t2;
 

@@ -20,7 +20,7 @@ int main(void)
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
 	}
-	printf("   ");
+	printf("\n");
 	return (0);
 }
 

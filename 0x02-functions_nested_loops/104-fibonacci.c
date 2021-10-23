@@ -7,7 +7,7 @@
 int main(void)
 {
 	long int i;
-	long int n = 89;
+	long int n = 98;
 	long int t1 = 1, t2 = 1;
 	long int nextTerm = t1 + t2;
 
@@ -20,7 +20,6 @@ int main(void)
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
 	}
-	printf("\n");
 	return (0);
 }
 

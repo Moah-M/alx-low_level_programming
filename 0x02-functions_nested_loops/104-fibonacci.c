@@ -13,7 +13,7 @@ int main(void)
 
 	printf("%ld, ", t2);
 
-	for (i = 3; i < n; ++i)
+	for (i = 3; i <= n; ++i)
 	{
 		printf("%ld, ", nextTerm);
 		t1 = t2;

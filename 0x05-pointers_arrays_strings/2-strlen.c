@@ -4,7 +4,6 @@
 /**
  * _strlen - main function
  * @s: var 1
- * @y: var 2
  * Return: 0
  */
 int _strlen(char *s)

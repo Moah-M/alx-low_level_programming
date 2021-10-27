@@ -4,7 +4,7 @@
 
 /**
  * rev_string - funct
- *@r: var
+ *@s: var
  */
 void rev_string(char *s)
 {

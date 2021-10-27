@@ -3,7 +3,7 @@
 
 /**
  * print_rev - funct
- *@r: var
+ *@s: var
  */
 void print_rev(char *s)
 {

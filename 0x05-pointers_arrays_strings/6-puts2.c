@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * puts2 - main
+ * @str: var
+ */
 void puts2(char *str)
 {
 	char even = 1;
